@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00247535A36B418FB0C5B9EE /* Outfit-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81C6D0C382FF43FE82727ED8 /* Outfit-Light.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-petShopFNY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-petShopFNY.a */; };
+		0E5D96650C10742C57CC0FBF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		0E77DD1126BA4592B6613E5E /* Outfit-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBD367504C1A49CB80106C4D /* Outfit-Thin.ttf */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		3907508347F4402299E0A26B /* Outfit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE803C4FF1CF45FAACF7636F /* Outfit-Bold.ttf */; };
+		46155FE083E94C6FA3D30591 /* Outfit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02A427817B5E4840AD486413 /* Outfit-SemiBold.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7773080A1AF749E681BEA8F2 /* Outfit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D081CFE0859747EB845B2BDE /* Outfit-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		EDBEE149A28F49DFB0B8532F /* Outfit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972358633656410ABE5857FB /* Outfit-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02A427817B5E4840AD486413 /* Outfit-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-SemiBold.ttf"; path = "../app/assets/fonts/Outfit-SemiBold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* petShopFNY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = petShopFNY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = petShopFNY/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = petShopFNY/Info.plist; sourceTree = "<group>"; };
@@ -23,6 +31,11 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-petShopFNY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-petShopFNY.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = petShopFNY/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = petShopFNY/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81C6D0C382FF43FE82727ED8 /* Outfit-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Light.ttf"; path = "../app/assets/fonts/Outfit-Light.ttf"; sourceTree = "<group>"; };
+		972358633656410ABE5857FB /* Outfit-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Medium.ttf"; path = "../app/assets/fonts/Outfit-Medium.ttf"; sourceTree = "<group>"; };
+		AE803C4FF1CF45FAACF7636F /* Outfit-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Bold.ttf"; path = "../app/assets/fonts/Outfit-Bold.ttf"; sourceTree = "<group>"; };
+		D081CFE0859747EB845B2BDE /* Outfit-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Regular.ttf"; path = "../app/assets/fonts/Outfit-Regular.ttf"; sourceTree = "<group>"; };
+		EBD367504C1A49CB80106C4D /* Outfit-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Outfit-Thin.ttf"; path = "../app/assets/fonts/Outfit-Thin.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -59,6 +72,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5AB4A7811E94413ABF965903 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE803C4FF1CF45FAACF7636F /* Outfit-Bold.ttf */,
+				D081CFE0859747EB845B2BDE /* Outfit-Regular.ttf */,
+				EBD367504C1A49CB80106C4D /* Outfit-Thin.ttf */,
+				02A427817B5E4840AD486413 /* Outfit-SemiBold.ttf */,
+				972358633656410ABE5857FB /* Outfit-Medium.ttf */,
+				81C6D0C382FF43FE82727ED8 /* Outfit-Light.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +101,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				5AB4A7811E94413ABF965903 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -159,6 +187,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0E5D96650C10742C57CC0FBF /* PrivacyInfo.xcprivacy in Resources */,
+				3907508347F4402299E0A26B /* Outfit-Bold.ttf in Resources */,
+				7773080A1AF749E681BEA8F2 /* Outfit-Regular.ttf in Resources */,
+				0E77DD1126BA4592B6613E5E /* Outfit-Thin.ttf in Resources */,
+				46155FE083E94C6FA3D30591 /* Outfit-SemiBold.ttf in Resources */,
+				EDBEE149A28F49DFB0B8532F /* Outfit-Medium.ttf in Resources */,
+				00247535A36B418FB0C5B9EE /* Outfit-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +405,10 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
+				);
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -377,8 +416,13 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -435,6 +479,10 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
+				);
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -442,8 +490,12 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
