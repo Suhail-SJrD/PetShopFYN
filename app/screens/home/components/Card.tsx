@@ -70,7 +70,6 @@ const styles = StyleSheet.create({
     width: SizeConfig.width * 42,
     backgroundColor: Colors.white,
     borderRadius: SizeConfig.width * 4,
-    overflow: 'hidden',
 
     elevation: 4,
     shadowColor: '#000',
@@ -84,6 +83,8 @@ const styles = StyleSheet.create({
     width: '100%',
     height: SizeConfig.height * 12,
     resizeMode: 'cover',
+    borderTopRightRadius : SizeConfig.width * 4,
+    borderTopLeftRadius : SizeConfig.width * 4
   },
 
   content: {

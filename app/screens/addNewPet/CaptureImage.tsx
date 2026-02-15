@@ -11,6 +11,8 @@ import { NavigationTypes } from '../../navigation/NavigationTypes';
 import { Colors } from '../../utils/Colors';
 import Button from '../../components/Button';
 import { SizeConfig } from '../../utils/SizeConfig';
+import AppText from '../../components/AppText';
+import { Fonts } from '../../utils/Fonts';
 
 type CaptureImageType = NativeStackScreenProps<NavigationTypes, 'CaptureImage'>;
 
@@ -56,20 +58,34 @@ const CaptureImage = ({ navigation, route }: CaptureImageType) => {
           <Button
             buttonText="Retake"
             onPress={() => setPhoto(null)}
-            touchableOpacityStyle={{ backgroundColor: Colors.danger , width : '40%' }}
+            touchableOpacityStyle={{
+              backgroundColor: Colors.danger,
+              width: '40%',
+            }}
           />
 
           <Button
             buttonText="Use Photo"
             onPress={handleProceed}
-            touchableOpacityStyle={{ backgroundColor: Colors.green , width : '40%' }}
+            touchableOpacityStyle={{
+              backgroundColor: Colors.green,
+              width: '40%',
+            }}
           />
         </View>
       </View>
     );
   }
 
-  if (!hasPermission || device == null) return null;
+  if (!hasPermission || device == null) {
+    return (
+      <View style={styles.cameraNotFoundCont}>
+        <AppText style={styles.cameraNotFoundInfo}>
+          Device Camera not founded.
+        </AppText>
+      </View>
+    );
+  }
 
   return (
     <View style={{ flex: 1 }}>
@@ -115,6 +131,18 @@ const styles = StyleSheet.create({
     width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-evenly',
+  },
+  cameraNotFoundCont: {
+    flex: 1,
+    backgroundColor: Colors.white,
+    alignContent: 'center',
+    justifyContent: 'center',
+  },
+  cameraNotFoundInfo: {
+    fontFamily: Fonts.bold,
+    fontSize: SizeConfig.fontSize * 4,
+    color: Colors.textColor,
+    textAlign: 'center',
   },
 });
 

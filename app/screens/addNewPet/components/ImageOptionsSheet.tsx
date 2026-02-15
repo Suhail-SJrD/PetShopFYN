@@ -34,16 +34,16 @@ const ImageOptionsModal = ({
   const navigation = useNavigation<NavigationProp>();
 
   const pickImage = async () => {
-    setModalVisible(false);
-
+    
     const result = await launchImageLibrary({
       mediaType: 'photo',
       quality: 0.8,
     });
-
+    
     if (result.assets && result.assets[0]?.uri) {
       setPetImage(result.assets[0].uri);
     }
+    setModalVisible(false);
   };
 
   const openCamera = () => {
